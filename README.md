@@ -1,6 +1,6 @@
 <img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
 
-Welcome USER_NAME,
+Welcome BlankaG,
 
 This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
 
@@ -37,3 +37,18 @@ We continually tweak and adjust this template to help give you the best experien
 --------
 
 Happy coding!
+
+BLANKA GRZNAROVA  
+Website For Restaurant : The Girl & The Sheep
+
+1 Creating the Skeleton of the landing page 
+- 4 sections:
+* Welcome
+* Opening hours
+* How to find us
+* Sign up
+2 Bootsrap class: Text-uppercase to form my headings as a Capital letters.
+3 Use Bootstrap for Grid system also class my-5 to give the sections some more vertical space.
+4 Use Bootstrap class jumbotron for the welcome section to stand out.
+5 Like the navigation bar to be placed at the top of the page and to be fixed there.
+

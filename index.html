@@ -17,20 +17,25 @@
       integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+    />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
   </head>
   <body>
     <header>
       <div class="row">
         <div class="col">
-          <img class="background-image"
+          <img
+            class="background-image"
             src="https://images.pexels.com/photos/3201921/pexels-photo-3201921.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
             alt="Restaurant"
           />
         </div>
       </div>
       <!--Nav-->
-      <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+      <nav class="navbar navbar-dark bg-dark navbar-expand-sm fixed-top">
         <button
           class="navbar-toggler ml-left"
           type="button"
@@ -45,24 +50,38 @@
 
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav mr-auto">
-            <li class="active nav-item  mr-2">
-              <a class="nav-link text-uppercase text-white ui-menu-text" href="index.html"><span>About</span></a>
+            <li class="active nav-item mr-2">
+              <a
+                class="nav-link text-uppercase text-white ui-menu-text hover-underline"
+                href="index.html"
+                ><span>About</span></a
+              >
             </li>
             <li class="nav-item mr-2">
-            <a class="nav-link text-uppercase text-white ui-menu-text" href=""><span>Menus</span></a>
+              <a class="nav-link text-uppercase text-white ui-menu-text" href=""
+                ><span>Menus</span></a
+              >
             </li>
             <li class="nav-item mr-2">
-              <a class="nav-link text-uppercase text-white ui-menu-text" href=""><span>Gallery</span></a>
+              <a class="nav-link text-uppercase text-white ui-menu-text" href=""
+                ><span>Gallery</span></a
+              >
             </li>
             <li class="nav-item mr-2">
-              <a class="nav-link text-uppercase text-white ui-menu-text" href=""><span>Contact</span></a>
+              <a class="nav-link text-uppercase text-white ui-menu-text" href=""
+                ><span>Contact</span></a
+              >
             </li>
           </ul>
         </div>
         <div class="d-none d-md-block">
-          <h1 class="navbar-text text-white my-auto mr-2">The Ivory Restaurant</h1>
+          <h1 class="navbar-text text-white my-auto mr-2">
+            The Ivory Restaurant
+          </h1>
         </div>
-        <a href="/Book"><i class="fas fa-glass-cheers text-uppercase"></i> BOOK A TABLE</a>
+        <a href="/Book"
+          ><i class="fas fa-glass-cheers text-uppercase"></i> BOOK A TABLE</a
+        >
         <!--</div>-->
       </nav>
     </header>
@@ -87,7 +106,7 @@
     <!-- /.welcome -->
 
     <!-- Opening hours -->
-    <div class="container opening-hours-container">
+    <div class="container-fluid opening-hours-container">
       <div class="row">
         <div class="col-12 my-5">
           <section class="opening-hours">
@@ -107,7 +126,7 @@
     </div>
 
     <!-- Map-->
-    <div class="container map-container">
+    <div class="container-fluid map-container">
       <div class="row">
         <div class="col-12 my-5">
           <section class="map">
@@ -117,7 +136,7 @@
       </div>
       <!-- /.map -->
     </div>
-    <div class="container-fluid sign-up-container">
+    <div class="container-fluid d-none d-md-block sign-up-container">
       <div class="row">
         <div class="col-12 my-5">
           <section class="Sign up">
@@ -129,19 +148,55 @@
         </div>
       </div>
     </div>
-<footer class="footer-fluid footer-container">
-      <div class="row">
-        <div class="col-sm-4">
-          <h5 class="text-uppercase footer-sub">Gift Cards</h5>
-        </div>
-        <div class="col-sm-4">
-          <h5 class="text-uppercase footer-sub">Social</h5>
-        </div>
-        <div class="col-sm-4">
-          <h5 class="text-uppercase footer-sub">Employment</h5>
+    <footer class="container-fluid footer-container">
+      <div class="row social">
+        <div class="col-12">
+          <h5 class="text-uppercase footer-sub">Let's be friends</h5>
+          <div class="row social-links">
+            <div class="col-12">
+              <ul class="list-inline social-links">
+                <li class="list-inline-item">
+                  <a target="_blank" href="https://twitter.com/explore">
+                    <i class="fab fa-twitter-square" aria-hidden="true"></i>
+                    <span class="sr-only">Twitter</span>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a target="_blank" href="https://www.facebook.com/">
+                    <i class="fab fa-facebook-square" aria-hidden="true"></i>
+                    <span class="sr-only">Facebook</span>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a target="_blank" href="https://www.youtube.com/">
+                    <i class="fab fa-youtube-square" aria-hidden="true"></i>
+                    <span class="sr-only">Youtube</span>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a target="_blank" href="https://www.linkedin.com/">
+                    <i class="fab fa-linkedin" aria-hidden="true"></i>
+                    <span class="sr-only">LinkedIn</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
-</footer>
+      <hr />
+      <div class="row d-none d-md-block">
+        <div class="col-12">
+          <h5 class="text-uppercase footer-sub">Address</h5>
+          <p class="address">
+            The Ivory Restaurant Belfast, Cleaver House, Donegal Square North,
+            Belfast, BT1 5GE<br />
+            <i class="fas fa-phone"></i> 028 4520 5331 |
+            <i class="fas fa-envelope-square"></i> info@theivorybelfast.com
+          </p>
+        </div>
+      </div>
+    </footer>
     <!-- Menu 
         <section class="menu">
             <h2 class="text-uppercase">Our Menu</h2>

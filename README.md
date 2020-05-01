@@ -39,7 +39,7 @@ We continually tweak and adjust this template to help give you the best experien
 Happy coding!
 
 BLANKA GRZNAROVA  
-Website For Restaurant : The Girl & The Sheep
+Website For Restaurant : The Ivory Restaurant
 
 1 Creating the Skeleton of the landing page 
 - 4 sections:

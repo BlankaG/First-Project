@@ -18,19 +18,21 @@ h1 {
 }
 
 h2  {
-    color:#5f9ea0;
+        color: #008080;
     font-family: 'Exo' , sans-serif;
     text-align: center;
 }
 h3 {
-    color:#5f9ea0;
+        color: #008080;
     font-family: 'Exo' , sans-serif;
     text-align: center;
 
 }
 h4 {
-    color:#5f9ea0;
-    font-family: 'Exo' , sans-serif;
+       
+        color: #008080;
+    
+        font-family: 'Exo' , sans-serif;
     text-align: center;
     text-decoration: overline underline;
 }
@@ -41,6 +43,11 @@ h5 {
     text-align: center;
     margin-top: 20px;
     letter-spacing: 2px;
+}
+h6 {
+    color:#5f9ea0;
+    font-family: 'Exo' sans-serif;
+    text-align: left;
 }
 
 .ui-menu-text {
@@ -156,4 +163,9 @@ span:hover {
     height: auto;
     background-color: #5f9ea0;
     padding-bottom: 20px;
+}
+
+.menus-container {
+    align-content: center;
+    margin-bottom: 20px;
 }

@@ -17,10 +17,16 @@ h1 {
     letter-spacing: 2px;
 }
 
-h2 {
+h2  {
     color:#5f9ea0;
     font-family: 'Exo' , sans-serif;
     text-align: center;
+}
+h3 {
+    color:#5f9ea0;
+    font-family: 'Exo' , sans-serif;
+    text-align: center;
+
 }
 h4 {
     color:#5f9ea0;
@@ -48,14 +54,24 @@ span:hover {
 
 }
 
-/*------------------------------------------Colors*/
 
 
 /*-----------------------------------------Images*/
 
-.background-image {
+.background-picture {
     width: 100%;
-    height: auto;
+    height: 200px;
+}
+.fullscreen-gallery {
+    padding: 30px;
+}
+.no-padding {
+    padding: 0px;
+}
+.light-gallery {
+    background: transparent;
+    width: 100%;
+    margin: auto;
 }
 
 /*----------------------------------------Others*/

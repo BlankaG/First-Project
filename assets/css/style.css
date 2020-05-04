@@ -66,8 +66,8 @@ span:hover {
 /*-----------------------------------------Images*/
 
 .background-picture {
-    width: 100%;
     height: 200px;
+    width: 100%;
 }
 .fullscreen-gallery {
     padding: 30px;
@@ -129,25 +129,23 @@ span:hover {
 
 
 /*------------------------------------------Containers*/
-.welcome-container {
+
+
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+.welcome-container{
     width: 100%;
     height: auto;
-
-
+    background: #dcdcdc;
 }
 
-.opening-hours-container {
+.hours-container{
     width: 100%;
     height: auto;
-    background: #e6e6fa;
-
-
-}
-
-.map-container {
-    width: 100%;
-    height: auto;
-
+    background: #dcdcdc;
 
 }
 

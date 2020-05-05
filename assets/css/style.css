@@ -85,6 +85,7 @@ span:hover {
 
 .hours{
     text-align: center;
+    color: #fafafa;
 }
 
 .offers{
@@ -132,20 +133,17 @@ span:hover {
 
 
 
-#map {
-    height: 400px;
-    width: 100%;
-}
+
 .welcome-container{
     width: 100%;
     height: auto;
-    background: #dcdcdc;
+    background: #fafafa;
 }
 
 .hours-container{
     width: 100%;
     height: auto;
-    background: #dcdcdc;
+    background: #525252;
 
 }
 

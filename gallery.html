@@ -23,7 +23,9 @@
     />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
   </head>
+
   <body>
+
     <header>
       <div class="row">
         <div class="col-12 background-image">
@@ -33,7 +35,9 @@
           />
         </div>
       </div>
+
       <!--Nav-->
+
       <nav class="navbar navbar-dark bg-dark navbar-expand-sm fixed-top">
         <button
           class="navbar-toggler ml-left"
@@ -85,9 +89,12 @@
           </h1>
         </div>
        <button class="btn btn-dark" data-toggle="modal" data-target="#bookATableModal"><i class="fas fa-glass-cheers text-uppercase"></i> BOOK A TABLE</button>
-        <!--</div>-->
+        <!--</nav>-->
       </nav>
+    
+    <!-------Gallery-->
     </header>
+
     <div class="fullscreen-gallery">
       <div class="container-fluid no-padding">
         <div class="row light-gallery">
@@ -172,6 +179,23 @@
         </div>
       </div>
     </div>
+<!---------/. Gallery-->
+
+ <!--Offers-->
+      <div class="container-fluid d-none d-md-block sign-up-container">
+      <div class="row">
+        <div class="col-12 my-5">
+          <section class="Sign up">
+            <div class="offers">
+              Sign Up For Exclusive Offers
+              <button class="btn btn-dark" data-toggle="modal" data-target="#signUpHereModal">Sign Up Here!</button>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <!-------/.Sign up for offers-->
+
     <footer class="container-fluid footer-container">
       <div class="row social">
         <div class="col-12">
@@ -221,7 +245,8 @@
       </div>
     </footer>
 
-    
+ <!-----Book  a Table Modal-->  
+
 <div class="modal" tabindex="-1" role="dialog" id="bookATableModal">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -258,6 +283,37 @@
     </div>
   </div>
 </div>
+
+<!-----/.Book a Table Modal-->
+
+<!-----Sign up Modal----------->
+
+   <div class="modal" tabindex="-1" role="dialog" id="signUpHereModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Sign Up</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+ 
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+      </div>
+      
+    </div>
+  </div>
+</div>
+<!--------------/. Sign up Modal-->
+
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

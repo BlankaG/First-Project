@@ -42,10 +42,9 @@ BLANKA GRZNAROVA
 Website For Restaurant : The Ivory Restaurant
 
 1 Creating the Skeleton of the landing page 
-- 4 sections:
+- 3sections:
 * Welcome
 * Opening hours
-* How to find us
 * Sign up
 2 Bootsrap class: Text-uppercase to form my headings as a Capital letters.
 3 Use Bootstrap for Grid system also class my-5 to give the sections some more vertical space.

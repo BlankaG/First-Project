@@ -39,15 +39,64 @@ We continually tweak and adjust this template to help give you the best experien
 Happy coding!
 
 BLANKA GRZNAROVA  
+
+My First Project
 Website For Restaurant : The Ivory Restaurant
 
-1 Creating the Skeleton of the landing page 
-- 3sections:
-* Welcome
-* Opening hours
-* Sign up
-2 Bootsrap class: Text-uppercase to form my headings as a Capital letters.
-3 Use Bootstrap for Grid system also class my-5 to give the sections some more vertical space.
-4 Use Bootstrap class jumbotron for the welcome section to stand out.
-5 Like the navigation bar to be placed at the top of the page and to be fixed there.
+
+Project Description
+I have produced a website for Restaurant which includes another 3 pages.
+
+ Main page is about the restaurant, therefore the name ABOUT.
+
+Second page is MENU, it gives the viewer information about A'la carte menu, Desert menu and Kids menu.
+
+Third page is GALLERY, where I used some pictures from free-pictures source,  https://www.pexels.com/search/restaurant/.
+
+Fourt page is a CONTACT US page, where you can contact the Restaurant with some queries.
+
+
+This site was created to use the knowledge to create the first project using common development tools , Gitpod & GitHub.
+
+
+
+Technology
+This project was written in HTML & CSS using Gitpod and is currently hosted on GitHub pages.
+
+More Information
+
+ABOUT PAGE:
+All pages have a eyecatching background-picture. Which is followed with some usefull information.
+About page, we have section with about restaurant- general info, section with opening hours, there is section to Sign up to get some offers by email.
+All is followed with a footer with social links and address of the restaurant.
+Through ALL PAGES I have used a modal with a form to BOOK A TABLE and SIGN UP to get the offers by email.
+I have used the BOOTSTRAP CSS and Javasript modals, forms and then customized them as I needed.
+https://getbootstrap.com/docs/4.3/getting-started/download/
+
+MENU PAGE:
+Background picture of nicely set table followed with a section with menus. A'la Carte, Desert and Kids menu.
+Also sign up for offers section and footer with social links and the address of the restaurant.
+
+GALLERY PAGE:
+Background picture of the restaurant looks inviting.
+In the gallery block are pictures of meals, wine or tableseting to convince visiting the restaurant.
+For the pictures I was inspired with CSS CARDS  for stunning design and also description of the picture which I have customized how I wanted.
+Reference: Free Fronted,CSS CARDS, available at https://freefrontend.com/css-cards/ .
+
+CONTACT PAGE:
+Beatifull colorful background picture.
+The page consist of ideas what occasions you can book the restaurant for. Also with a contact form to contact the restaurant with any queiries.
+I have used a contact form, which I customized for my need using the template at https://www.w3schools.com/howto/howto_css_contact_form.asp.
+
+
+OVERALL I think the website is nice and clean with some functions and also is adapted to look good on a mobile devices as well as give the main information needed.
+
+
+The Website is available at: https://blankag.github.io/First-Project/
+
+
+
+
+
+
 

@@ -30,9 +30,8 @@ h3 {
 }
 h4 {
        
-        color: #008080;
-    
-        font-family: 'Exo' , sans-serif;
+     color: #008080;
+    font-family: 'Exo' , sans-serif;
     text-align: center;
     text-decoration: overline underline;
 }
@@ -44,6 +43,7 @@ h5 {
     margin-top: 20px;
     letter-spacing: 2px;
 }
+
 h6 {
     color:#5f9ea0;
     font-family: 'Exo' sans-serif;
@@ -62,24 +62,6 @@ span:hover {
 }
 
 
-
-/*-----------------------------------------Images*/
-
-.background-picture {
-    height: 200px;
-    width: 100%;
-}
-.fullscreen-gallery {
-    padding: 30px;
-}
-.no-padding {
-    padding: 0px;
-}
-.light-gallery {
-    background: transparent;
-    width: 100%;
-    margin: auto;
-}
 
 /*----------------------------------------Others*/
 
@@ -130,6 +112,7 @@ span:hover {
 
 
 /*------------------------------------------Containers*/
+
 .image-container {
     height: 650px;
 
@@ -193,10 +176,6 @@ span:hover {
     justify-content: center;
 
     position: relative;
-
-
-
-
 }
 
 
@@ -227,6 +206,10 @@ span:hover {
     background-color: #5f9ea0;
     padding-bottom: 20px;
 }
+
+
+/* Reference: Contact Form, W3 Schools.com, available at https://www.w3schools.com/howto/howto_css_contact_form.asp */
+
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
   width: 100%; /* Full width */
@@ -262,7 +245,10 @@ input[type=submit]:hover {
 }
 
 
-/* Test*/
+/* ----------------CSS CARDS--------------*/
+
+/*-----------Reference: CSS Cards, Free Fronted, availale at https://freefrontend.com/css-cards/ -------*/
+
 .img-container{
     margin: 0;
     padding: 20px;
@@ -270,7 +256,7 @@ input[type=submit]:hover {
     justify-content:center;
     align-items: center;
     height:auto;
-    background: #212121;
+    background:#212121;
     font-family: "Exo";
   }
   .box{
@@ -351,14 +337,16 @@ input[type=submit]:hover {
    padding: 0;
    font-weight: 600;
    font-size: 20px;
-   color: #777;
+   color: 	#483d8b;
    text-transform: uppercase;
   } 
 
   .card .details h2 span{
   font-weight: 500;
   font-size: 16px;
-  color: #f38695;
+  color: 	#ff146e;
   display: block;
   margin-top: 5px;
    } 
+
+   /* -----End of Styling------*/
